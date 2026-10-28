@@ -2434,7 +2434,9 @@ int main(void){
 
     int option;
 
-    printf("hos geldiniz... Bota karsi oynamak icin 1, iki kisi oynamak icin 2'ye basiniz: ");
+    printf("hos geldiniz... Input olarak tam sayi giriniz. Hedef karenin önce SATIR numarasını daha sonra SÜTUN numarasını arada BOŞLUK olacak şekilde tuşlayın\nÖrnek: (7 5)(Enter)(5 5)\n");
+
+    printf("Bota karsi oynamak icin 1, iki kisi oynamak icin 2'ye basiniz: ");
     scanf("%d", &option);
 
     switch(option){
