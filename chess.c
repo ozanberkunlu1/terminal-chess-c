@@ -2198,10 +2198,10 @@ int botluOyun(void){
             continue;
         }
 
-        printf("\n\n\n oynamak istediginiz tasin koordinatlarini giriniz: ");
+        printf("\n\n\n oynamak istediginiz tasin koordinatlarini giriniz(Satir Sutun): ");
         scanf("%d %d", &kaynakX, &kaynakY);
 
-        printf("hedef karenin koordinatlarini giriniz: ");
+        printf("hedef karenin koordinatlarini giriniz(Satir Sutun): ");
         scanf("%d %d", &hedefX, &hedefY);
 
         if(kaynakX >= 1 && kaynakX <= 8 && kaynakY >= 1 && kaynakY <= 8 &&
@@ -2345,10 +2345,10 @@ int normalOyun(void){
             printf("\n\n\n--- SİYAHIN SIRASI (Hamle: %d) ---\n", hamle);
         }
 
-        printf("\n\n\n oynamak istediginiz tasin koordinatlarini giriniz: ");
+        printf("\n\n\n oynamak istediginiz tasin koordinatlarini giriniz(Satir Sutun): ");
         scanf("%d %d", &kaynakX, &kaynakY);
 
-        printf("hedef karenin koordinatlarini giriniz: ");
+        printf("hedef karenin koordinatlarini giriniz(Satir Sutun): ");
         scanf("%d %d", &hedefX, &hedefY);
 
         if(kaynakX >= 1 && kaynakX <= 8 && kaynakY >= 1 && kaynakY <= 8 &&
